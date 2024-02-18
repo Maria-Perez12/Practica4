@@ -1,0 +1,71 @@
+
+
+iframe{
+    width: 100%;
+}
+
+  nav a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 18px;
+  }
+  nav a.home {
+    background-color: rgb(5, 177, 177);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+  }
+  
+  nav a.home:hover {
+    background-color: rgb(23, 119, 119);
+    color: #fff;
+  }
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    height: 445px;
+    background-color: orange;
+    overflow: hidden;
+}
+
+.titulo{
+    width: 312px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: orangered;
+}
+.titulo_producto {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+}
+.caja, precio_producto{
+    text-align: center;
+    color: white;
+}
+body {
+
+    font-family: arial, sans-serif;
+}
+.agregar {
+  background-color: black;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.agregar:hover {
+  background-color: green;
+}
